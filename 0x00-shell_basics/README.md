@@ -6,3 +6,4 @@ ls -la displays current directory contents, including hidden files using the lon
 ls lna displays current directory contents in long format with user and group IDs displayed numerically, including hidden files
 Created a script that creates a directory
 Moved a file from one directory to another
+My first file deletion
