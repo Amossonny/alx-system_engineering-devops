@@ -7,3 +7,4 @@ ls lna displays current directory contents in long format with user and group ID
 Created a script that creates a directory
 Moved a file from one directory to another
 My first file deletion
+My first directory deletion
