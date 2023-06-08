@@ -8,3 +8,4 @@ Created a script that creates a directory
 Moved a file from one directory to another
 My first file deletion
 My first directory deletion
+Changed the working directory to the previous one
