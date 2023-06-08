@@ -11,3 +11,4 @@
 * Changed the working directory to the previous one
 * Lists all files from current and parent directoies in long format, including hidden files
 * This command file prints this kind of file here
+* Create a symbolic link to /bin/ls, named __ls__. The symbolic link should be created in the current working directory
