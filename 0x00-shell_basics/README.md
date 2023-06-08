@@ -9,3 +9,4 @@ Moved a file from one directory to another
 My first file deletion
 My first directory deletion
 Changed the working directory to the previous one
+Lists all files from current and parent directoies in long format, including hidden files
