@@ -9,7 +9,7 @@
 * chmod 007 hello is a script that sets the permission to the file hello as follows: ------rwx
 * chmod 753 hello is a script that sets the mode of the file hello to this: -rwxr-x-wx
 * chmod --reference=olleh hello is a script that sets the mode of the file hello the same as olleh’s mode
-* chmod -R a+X * is a script that adds execute permission to all subdirectories of the current directory for the owner, the group owner and all other users
+* chmod -R a+X is a script that adds execute permission to all subdirectories of the current directory for the owner, the group owner and all other users
 * mkdir -m 751 my_dir is a script that creates a directory called my_dir with permissions 751 in the working directory
 * chgrp school hello is a script that changes the group owner to school for the file hello
-* chown -R vincent:staff * is a script that changes the owner to vincent and the group owner to staff for all the files and directories in the working directory
+* chown -R vincent:staff . is a script that changes the owner to vincent and the group owner to staff for all the files and directories in the working directory
