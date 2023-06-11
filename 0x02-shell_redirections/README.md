@@ -21,3 +21,4 @@
 * tr -d 'cC' is a script that scans the input looking for occurrences of the letters 'c' and 'C' in order to delete them from the input
 * rev command reads the input from a file or from standard input (stdin) and reverses the order of characters in each line
 * cut -d: -f1,6 /etc/passwd | sort is a script that extracts the username and the home directory from each line of the /etc/passwd file and the sorts them in ascending order based on the usernames
+* find . -empty -printf "%f\n" is a script that locates all the empty files in the current directory and its subdirectories, and then print out their file names, each name appearing on a new line
