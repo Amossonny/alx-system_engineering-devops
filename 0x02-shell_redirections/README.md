@@ -10,3 +10,4 @@
 * tail -n 1 iacta | cat >> iacta is a script that duplicates the last line of the file in the working directory
 * find . -type f -name "*.js"  -delete is a script that finds all regular files with .js extension and delete them
 * find . -mindepth 1 -type d | wc -l is a script that searches and counts the number of directories and subdirectories (current and parent directories not included) beginning from the current directory
+* ls -t1 | head -n 10 is a script that lists the files and directories in the current directory, sorted by modification time (newest first) and then displays the 10 newest files in the current directory
