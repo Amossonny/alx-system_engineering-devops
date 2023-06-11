@@ -12,3 +12,4 @@
 * find . -mindepth 1 -type d | wc -l is a script that searches and counts the number of directories and subdirectories (current and parent directories not included) beginning from the current directory
 * ls -t1 | head -n 10 is a script that lists the files and directories in the current directory, sorted by modification time (newest first) and then displays the 10 newest files in the current directory
 * sort | uniq -u is a script that takes input lines, sorts and filters them to ensure that only lines without duplicates are displayed
+* grep "root" /etc/passwd is a script that searches for lines in the /etc/passwd file which contain the pattern "root" and then displays those lines as output
