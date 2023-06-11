@@ -9,3 +9,4 @@
 * ls -la > ls_cwd_content is a script that  writes into the file "ls_cwd_content" the result of the command "ls -la"
 * tail -n 1 iacta | cat >> iacta is a script that duplicates the last line of the file in the working directory
 * find . -type f -name "*.js"  -delete is a script that finds all regular files with .js extension and delete them
+* find . -mindepth 1 -type d | wc -l is a script that searches and counts the number of directories and subdirectories (current and parent directories not included) beginning from the current directory
