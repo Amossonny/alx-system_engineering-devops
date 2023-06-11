@@ -17,3 +17,4 @@
 * grep -A 3 "root" /etc/passwd is a script that searches for lines in the /etc/passwd file which contain the pattern "root" and displays each matching line alongside the three lines that come after it
 * grep -v "bin" /etc/passwd is a script that searches for lines in the /etc/passwd file which do not contain the pattern "bin" and displays those lines as the output
 * rep "^[[:alpha:]]" /etc/ssh/sshd_config is a script that searches for lines in the /etc/ssh/sshd_config file that matches the pattern of starting with a letter (upper cases inclusive) and then displays them as output
+* tr 'Ac' 'Ze' is a script that scans the input looking for occurrences of the characters 'A' and 'c' in order to replace them with 'Z', and 'e' respectively
