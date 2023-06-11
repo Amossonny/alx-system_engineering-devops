@@ -13,3 +13,4 @@
 * ls -t1 | head -n 10 is a script that lists the files and directories in the current directory, sorted by modification time (newest first) and then displays the 10 newest files in the current directory
 * sort | uniq -u is a script that takes input lines, sorts and filters them to ensure that only lines without duplicates are displayed
 * grep "root" /etc/passwd is a script that searches for lines in the /etc/passwd file which contain the pattern "root" and then displays those lines as output
+* grep -c "bin" /etc/passwd is a script that searches for lines in the /etc/passwd file which contain the pattern "bin" and then displays the total count of the lines as the output
