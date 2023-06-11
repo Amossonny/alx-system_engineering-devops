@@ -14,3 +14,4 @@
 * sort | uniq -u is a script that takes input lines, sorts and filters them to ensure that only lines without duplicates are displayed
 * grep "root" /etc/passwd is a script that searches for lines in the /etc/passwd file which contain the pattern "root" and then displays those lines as output
 * grep -c "bin" /etc/passwd is a script that searches for lines in the /etc/passwd file which contain the pattern "bin" and then displays the total count of the lines as the output
+* grep -A 3 "root" /etc/passwd is a script that searches for lines in the /etc/passwd file which contain the pattern "root" and displays each matching line alongside the three lines that come after it
