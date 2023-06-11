@@ -23,3 +23,4 @@
 * cut -d: -f1,6 /etc/passwd | sort is a script that extracts the username and the home directory from each line of the /etc/passwd file and the sorts them in ascending order based on the usernames
 * find . -empty -printf "%f\n" is a script that locates all the empty files in the current directory and its subdirectories, and then print out their file names, each name appearing on a new line
 * find . -type f -name "*.gif" -printf "%f\n"| rev | cut -d '.' -f2- | rev | LC_ALL=C sort -f locates all the ".gif" files in the current directory and its subdirectories, remove the extension, and then sort the resulting file names in a case-insensitive manner, printing them out in alphabetical order
+* echo -ne $(cut -c-1 | tr -d '\n')'\n' script that takes input, extracts the first character, removes any newline character, and then prints the resulting character followed by a newline character
