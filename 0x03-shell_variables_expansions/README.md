@@ -6,3 +6,4 @@ The printenv script is used to display the current environment variables in Unix
 The set script is used in Unix-like operating systems to display all shell variables, including environment variables and user-defined variables, along with their values
 The script BEST="School" creates a user-defined variable named BEST and assigned it the value "School"
 The script export BEST="School", sets a user-defined variable named BEST withthe value "School" and exports it to the environment
+The script echo $(($TRUEKNOWLEDGE+128)) performs arithmetic operations by adding the value of the variable $TRUEKNOWLEDGE to 128 and then printing the result
