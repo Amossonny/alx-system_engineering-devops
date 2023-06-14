@@ -8,3 +8,4 @@ The script BEST="School" creates a user-defined variable named BEST and assigned
 The script export BEST="School", sets a user-defined variable named BEST withthe value "School" and exports it to the environment
 The script echo $(($TRUEKNOWLEDGE+128)) performs arithmetic operations by adding the value of the variable $TRUEKNOWLEDGE to 128 and then printing the result
 The script echo $(($POWER/$DIVIDE)) attempts to perform an arithmetic operation by dividing the value of the variable $POWER by the value of the variable $DIVIDE, and then printing the result
+The script echo $(($BREATH**$LOVE)) performs an arithmetic operation by raising the value of the variable $BREATH to the power of the value of the variable $LOVE, and then printing the result
