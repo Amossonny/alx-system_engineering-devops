@@ -11,3 +11,4 @@ The script echo $(($POWER/$DIVIDE)) attempts to perform an arithmetic operation 
 The script echo $(($BREATH**$LOVE)) performs an arithmetic operation by raising the value of the variable $BREATH to the power of the value of the variable $LOVE, and then printing the result
 The script echo $((2#$BINARY)) is used to convert a binary number represented by the variable $BINARY into its decimal equivalent
 The script echo {a..z}{a..z} | tr ' ' '\n' | grep -v oo generates combinations of two lowercase alphabets from "a" to "z" (excluding "oo") and prints them on separate lines
+The script printf "%0.2f\n" $NUM, formats the value of the variable $NUM as a floating-point number with two decimal places
