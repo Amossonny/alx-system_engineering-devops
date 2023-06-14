@@ -15,3 +15,4 @@ The script printf "%0.2f\n" $NUM, formats the value of the variable $NUM as a fl
 The script printf "%x\n" $DECIMAL, is used to format and print a decimal number as a hexadecimal (base 16) value
 The script tr 'A-Za-z' 'N-ZA-Mn-za-m', is a simple example of using the tr command to perform character translation or substitution
 The script -d" " - - | cut -d " " -f 1 is a pipeline that combines the paste and cut commands to manipulate and extract specific fields from the input
+The script retrieves the values from the WATER and STIR environment variables, convert them to decimal by replacing the characters according to the base representation, perform the addition, and store the result in result_decimal. Then, it will convert the decimal result to base bestchol using the printf command with the %#bestchol format string. Finally, it will print the result in base bestchol using echo
