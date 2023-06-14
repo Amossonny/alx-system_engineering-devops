@@ -13,3 +13,4 @@ The script echo $((2#$BINARY)) is used to convert a binary number represented by
 The script echo {a..z}{a..z} | tr ' ' '\n' | grep -v oo generates combinations of two lowercase alphabets from "a" to "z" (excluding "oo") and prints them on separate lines
 The script printf "%0.2f\n" $NUM, formats the value of the variable $NUM as a floating-point number with two decimal places
 The script printf "%x\n" $DECIMAL, is used to format and print a decimal number as a hexadecimal (base 16) value
+The script tr 'A-Za-z' 'N-ZA-Mn-za-m', is a simple example of using the tr command to perform character translation or substitution
