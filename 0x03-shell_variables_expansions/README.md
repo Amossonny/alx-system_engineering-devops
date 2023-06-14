@@ -14,3 +14,4 @@ The script echo {a..z}{a..z} | tr ' ' '\n' | grep -v oo generates combinations o
 The script printf "%0.2f\n" $NUM, formats the value of the variable $NUM as a floating-point number with two decimal places
 The script printf "%x\n" $DECIMAL, is used to format and print a decimal number as a hexadecimal (base 16) value
 The script tr 'A-Za-z' 'N-ZA-Mn-za-m', is a simple example of using the tr command to perform character translation or substitution
+The script -d" " - - | cut -d " " -f 1 is a pipeline that combines the paste and cut commands to manipulate and extract specific fields from the input
